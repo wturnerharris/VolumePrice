@@ -69,7 +69,7 @@ public class VolumePrice {
         // display
         JOptionPane.showMessageDialog(null, 
                 "The volume of the crate to build is "
-                + volume + " in cubic ft. \nIt will cost you $"
+                + volume + " cubic ft. \nIt will cost you $"
                 + new DecimalFormat("#0.00").format(cost) + " to create. \n"
                 + "This will cost the customer $"
                 + new DecimalFormat("#0.00").format(charge) 
