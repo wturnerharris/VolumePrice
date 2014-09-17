@@ -24,9 +24,9 @@ public class VolumePrice {
         final double COST_PER_CUBIC_FOOT = 0.23;
         final double CHARGE_PER_CUBIC_FOOT = 0.5;
         double tmp, volume, cost, charge, profit, percent;
-        double length = 1;
-        double width = 1;
-        double height = 1;
+        double length = 0;
+        double width = 0;
+        double height = 0;
         final String l = "length";
         final String w = "width";
         final String h = "height";
